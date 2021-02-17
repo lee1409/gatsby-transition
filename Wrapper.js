@@ -10,6 +10,7 @@ export default function Wrapper() {
   return createPortal(
     <div
       style={{
+        transition: 'all 2s ease',
         top: 0,
         left: 0,
         position: "absolute",
